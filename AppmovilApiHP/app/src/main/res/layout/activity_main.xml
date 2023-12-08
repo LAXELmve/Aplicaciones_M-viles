@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral80"
+    tools:context=".ui.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="47dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Elige la lista a ver"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/button"
+        android:layout_width="117dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/student"
+        app:layout_constraintBottom_toTopOf="@+id/buttonStaff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageButton
+        android:id="@+id/buttonStaff"
+        android:layout_width="128dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/staf"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSpell"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <ImageButton
+        android:id="@+id/buttonSpell"
+        android:layout_width="123dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="186dp"
+        android:background="@drawable/spell"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonStaff" />
+</androidx.constraintlayout.widget.ConstraintLayout>

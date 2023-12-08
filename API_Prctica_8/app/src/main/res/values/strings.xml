@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Shibe API</string>
+    <string name="opcion1">Shibas</string>
+    <string name="opcion2">Gatos</string>
+    <string name="opcion3">Aves</string>
+    <string name="msg1">Selecciona una categoría:</string>
+</resources>

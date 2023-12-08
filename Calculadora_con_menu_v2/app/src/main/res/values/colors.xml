@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name ="black">#FF000000</color>
+    <color name ="white">#FFFFFFFF</color>
+    <color name ="fondob_1">#EBEBEB</color>
+    <color name ="fondob_2">#91e4fb</color>
+    <color name ="fondob_1_alt">#FF000000</color>
+    <color name ="fondob_2_alt">#EBEBEB</color>
+    <color name ="fondob_3_alt">#3D8AF7</color>
+    <color name ="fondob_4_alt">#b3020d</color>
+    <color name ="delete_c">#b3020d</color>
+    <color name ="number_c">#FF000000</color>
+    <color name ="op_c">#3D8AF7</color>
+    <color name ="eq_c">#FF000000</color>
+    <color name ="delete_c_alt">#FFFFFF</color>
+    <color name ="number_c_alt">#FFFFFF</color>
+    <color name ="op_c_alt">#FFFFFF</color>
+    <color name ="eq_c_alt">#FF000000</color>
+
+
+</resources>

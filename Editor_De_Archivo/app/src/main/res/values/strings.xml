@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Editor de nota</string>
+    <string name="guardar">Guardar</string>
+    <string name="example_txt">Ingresa texto...</string>
+</resources>
